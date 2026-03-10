@@ -7,10 +7,8 @@ export default function Home() {
 
   const tabs = [
     { id: "tab1", label: "Analysis Tools" },
+    { id: "tab3", label: "Dcircles" },      // Added Dcircles after Analysis Tools
     { id: "tab2", label: "Pro Tool" },
-    { id: "tab3", label: "Trading View" },
-    { id: "tab4", label: "Signal Center" },
-    { id: "tab5", label: "DP Tool" },
     { id: "tab6", label: "Smart Edge" },
   ];
 
@@ -74,34 +72,18 @@ export default function Home() {
             />
           </div>
         )}
+        {activeTab === "tab3" && (
+          <iframe
+            src="https://dcircles-nu.vercel.app/"
+            title="Dcircles"
+            className="w-full border-0"
+            style={{ height: "calc(100vh - 55px)" }}
+          />
+        )}
         {activeTab === "tab2" && (
           <iframe
             src="https://new-tool-delta.vercel.app/"
             title="Second Tool"
-            className="w-full border-0"
-            style={{ height: "calc(100vh - 55px)" }}
-          />
-        )}
-        {activeTab === "tab3" && (
-          <iframe
-            src="https://charts.deriv.com/deriv"
-            title="Trading View"
-            className="w-full border-0"
-            style={{ height: "calc(100vh - 55px)" }}
-          />
-        )}
-        {activeTab === "tab4" && (
-          <iframe
-            src="https://www.smartanalysistool.com/signal-center/"
-            title="Signal Center"
-            className="w-full border-0"
-            style={{ height: "calc(100vh - 55px)" }}
-          />
-        )}
-        {activeTab === "tab5" && (
-          <iframe
-            src="https://serene-marzipan-19f3d1.netlify.app/"
-            title="DP Tool"
             className="w-full border-0"
             style={{ height: "calc(100vh - 55px)" }}
           />
