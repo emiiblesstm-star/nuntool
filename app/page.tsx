@@ -82,7 +82,7 @@ export default function Home() {
         )}
         {activeTab === "tab2" && (
           <iframe
-            src="https://v0-derivdashboard-puib.vercel.app/"
+            src="https://v0-derivtradingsuite2-4ytf.vercel.app/"
             title="Second Tool"
             className="w-full border-0"
             style={{ height: "calc(100vh - 55px)" }}
@@ -90,7 +90,7 @@ export default function Home() {
         )}
         {activeTab === "tab6" && (
           <iframe
-            src="https://v0-derivtradingsuite2-4ytf.vercel.app/"
+            src="ttps://v0-derivdashboard-puib.vercel.app/"
             title="Smart Edge"
             className="w-full border-0"
             style={{ height: "calc(100vh - 55px)" }}
