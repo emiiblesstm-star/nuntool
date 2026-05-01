@@ -74,7 +74,7 @@ export default function Home() {
         )}
         {activeTab === "tab3" && (
           <iframe
-            src="https://dcircles-nu.vercel.app/"
+            src="https://dcircles.pages.dev/"
             title="Dcircles"
             className="w-full border-0"
             style={{ height: "calc(100vh - 55px)" }}
