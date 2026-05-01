@@ -62,7 +62,7 @@ export default function Home() {
             }}
           >
             <iframe
-              src="https://api.binarytool.site/""
+              src="https://api.binarytool.site/"
               title="Binary Tool"
               className="w-full border-0"
               style={{
