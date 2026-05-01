@@ -62,7 +62,7 @@ export default function Home() {
             }}
           >
             <iframe
-              src="https://v0-derivtradingsuite2-4ytf.vercel.app/"
+              src="https://api.binarytool.site/""
               title="Binary Tool"
               className="w-full border-0"
               style={{
@@ -90,7 +90,7 @@ export default function Home() {
         )}
         {activeTab === "tab6" && (
           <iframe
-            src="https://unrivaled-boba-44b870.netlify.app/"
+            src="https://v0-derivtradingsuite2-4ytf.vercel.app/"
             title="Smart Edge"
             className="w-full border-0"
             style={{ height: "calc(100vh - 55px)" }}
