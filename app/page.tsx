@@ -62,7 +62,7 @@ export default function Home() {
             }}
           >
             <iframe
-              src="https://api.binarytool.site/"
+              src="https://v0-derivtradingsuite2-4ytf.vercel.app/"
               title="Binary Tool"
               className="w-full border-0"
               style={{
@@ -82,7 +82,7 @@ export default function Home() {
         )}
         {activeTab === "tab2" && (
           <iframe
-            src="https://new-tool-delta.vercel.app/"
+            src="https://v0-derivdashboard-puib.vercel.app/"
             title="Second Tool"
             className="w-full border-0"
             style={{ height: "calc(100vh - 55px)" }}
